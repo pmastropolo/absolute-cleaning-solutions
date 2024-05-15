@@ -15,7 +15,7 @@ const Hero = () => {
                                 <h2>Need Expert Cleaning Services?</h2>
                             </div>
                             <div className="wpo-hero-subtitle">
-                                <p>We are a certified company offering top-notch pressure washing, gutter, and window cleaning services for your home and business.</p>
+                                <p>We are Absolute Cleaning Solutions, your go-to company in Alabama for top-notch pressure washing, gutter cleaning, and window cleaning services for your home and business.</p>
                             </div>
                             <div className="btns">
                                 <Link href="/about" className="btn theme-btn">
@@ -43,3 +43,4 @@ const Hero = () => {
 }
 
 export default Hero;
+

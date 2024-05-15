@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
-import Navbar from '../../components/Navbar/Navbar'
-import PageTitle from '../../components/pagetitle/PageTitle'
-import Scrollbar from '../../components/scrollbar/scrollbar'
+import Navbar from '../../components/Navbar/Navbar';
+import PageTitle from '../../components/pagetitle/PageTitle';
+import Scrollbar from '../../components/scrollbar/scrollbar';
 import Testimonial from '../../components/Testimonial/Testimonial';
-import Footer from '../../components/footer/Footer.js'
+import Footer from '../../components/footer/Footer.js';
 import PartnerSection from '../../components/PartnerSection/PartnerSection';
 
 const TestimonialPage = (props) => {

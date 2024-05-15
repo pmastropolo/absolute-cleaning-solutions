@@ -31,7 +31,7 @@ const Header = (props) => {
                             <div className="col-lg-3 col-md-6 col-6">
                                 <div className="navbar-header">
                                     <Link onClick={ClickHandler} className="navbar-brand" href="/home"><Image src={Logo}
-                                        alt="" /></Link>
+                                        alt="Absolute Cleaning Solutions Brand Logo" /></Link>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-1 col-1">
@@ -66,6 +66,8 @@ const Header = (props) => {
                                                 <li><Link onClick={ClickHandler} href="/testimonial">Testimonial</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/pricing">Pricing</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/404">Error 404</Link></li>
+                                                <li><Link onClick={ClickHandler} href="/accessibility-statement">Accessibility Statement</Link></li>
+                                                <li><Link onClick={ClickHandler} href="/privacy-policy">Privacy Policy</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/login">Login</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/register">Register</Link></li>
                                             </ul>

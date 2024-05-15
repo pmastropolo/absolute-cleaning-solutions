@@ -4,15 +4,12 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 
-
-
 const FAQ = (props) => {
     const [expanded, setExpanded] = React.useState(false);
 
     const handleChange = (panel) => (event, isExpanded) => {
         setExpanded(isExpanded ? panel : false);
     };
-
 
     return (
         <div className="wpo-benefits-section">
@@ -26,11 +23,11 @@ const FAQ = (props) => {
                                 aria-controls="panel1bh-content"
                                 id="panel1bh-header"
                             >
-                                <Typography>Market research on our global panel with support from our experts.</Typography>
+                                <Typography>What services does Absolute Cleaning Solutions offer?</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
-                                <Typography>
-                                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.
+                            <Typography>
+                                    Absolute Cleaning Solutions offers a range of services including pressure washing, gutter cleaning, and window cleaning for both residential and commercial properties.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -40,11 +37,11 @@ const FAQ = (props) => {
                                 aria-controls="panel2bh-content"
                                 id="panel2bh-header"
                             >
-                                <Typography>Planning can help alleviate workplace stress and increase productivity.</Typography>
+                                 <Typography>How often should I have my gutters cleaned?</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
-                                <Typography>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.
+                            <Typography>
+                                    It is recommended to have your gutters cleaned at least twice a year, typically in the spring and fall, to prevent blockages and water damage.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -54,12 +51,12 @@ const FAQ = (props) => {
                                 aria-controls="panel3bh-content"
                                 id="panel3bh-header"
                             >
-                                <Typography>Those who experiment the most, are able to innovate the best.</Typography>
+                                <Typography>Are your cleaning methods safe for all surfaces?</Typography>
                 
                             </AccordionSummary>
                             <AccordionDetails>
-                                <Typography>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.
+                            <Typography>
+                                    Yes, our team is trained to use the appropriate cleaning methods for different surfaces to ensure effective cleaning without causing any damage.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -69,11 +66,11 @@ const FAQ = (props) => {
                                 aria-controls="panel4bh-content"
                                 id="panel4bh-header"
                             >
-                                <Typography>Understand Your Problem, You must understand the issue.</Typography>
+                                <Typography>Do you offer free estimates?</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
-                                <Typography>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.
+                            <Typography>
+                                    Yes, Absolute Cleaning Solutions offers free estimates for all our services. Contact us to schedule an appointment.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
