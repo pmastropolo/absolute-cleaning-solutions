@@ -55,8 +55,7 @@ const Contactpage = () => {
                         </div>
                         <div className="wpo-contact-title">
                             <h2>Ready to experience top-notch cleaning services?</h2>
-                            <p>It is a long established fact that a reader will be distracted
-                                content of a page when looking.</p>
+                            <p>Contact us now to book your appointment or inquire about our offerings. If you prefer immediate support, give us a call. We're here to you achieve a spotless and comfortable environment that exceeds your expectations.</p>
                         </div>
                         <div className="wpo-contact-form-area">
                             <ContactForm/>
