@@ -26,7 +26,7 @@ const ServiceSidebar = (props) => {
                 </div>
                 <div className="wpo-newsletter-widget widget">
                     <h2>Stay in the Loop</h2>
-                    <p>Join 20,000 Sabscribers!</p>
+                    <p>Sign Up for Exclusive Updates!</p>
                     <form className="form" onSubmit={SubmitHandler}>
                         <input type="email" placeholder="Email Address" required/>
                         <button type="submit">Sign Up</button>
