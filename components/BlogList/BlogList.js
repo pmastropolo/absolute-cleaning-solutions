@@ -21,7 +21,7 @@ const BlogList = (props) => {
                             {blogs.map((blog, bitem) => (
                                 <div className={`post  ${blog.blClass}`}key={bitem}>
                                     <div className="entry-media video-holder">
-                                        <Image src={blog.blogSingleImg} alt=""/>
+                                        <Image src={blog.blogSingleImg} alt="Absolute Cleaning Solutions Blog"/>
                                         <VideoModal/>
                                     </div>
                                     <div className="entry-meta">
