@@ -42,10 +42,13 @@ const ServiceSidebar = (props) => {
                     </ul>
                 </div>
                 <div className="wpo-contact-widget widget">
-                    <h2>How We Can <br/> Help You!</h2>
-                    <p>labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                    <Link href="/contact">Contact Us</Link>
-                </div>
+                <h2>Make Your Home Shine Now!</h2>
+            <p>Don't wait! Absolute Cleaning Solutions offers unbeatable pressure washing, gutter cleaning, house washing, and roof washing services. Join countless happy customers who've transformed their homes. Don't be left behind—your spotless home awaits!</p>
+                <Link href="/contact">Get Your Free Quote Today!</Link>
+            </div>
+
+
+
             </div>
         </div>
 
