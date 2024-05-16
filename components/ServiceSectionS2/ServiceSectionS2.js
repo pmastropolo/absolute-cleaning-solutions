@@ -20,9 +20,9 @@ const ServiceSectionS2 = (props) => {
                 <div className="row align-items-center justify-content-between">
                     <div className="col-lg-5">
                         <div className="wpo-section-title-s2">
-                            <h2>What We Do?</h2>
-                            <p>It was popularised in the with the release desktop
-                                publishing software like versions .</p>
+                        <h2>Our Services</h2>
+<p>At Absolute Cleaning Solutions, we specialize in delivering top-tier cleaning services that leave your property spotless. From pressure washing to gutter cleaning, our expert team ensures exceptional results with every service.</p>
+
                         </div>
                     </div>
                     <div className="col-lg-7">

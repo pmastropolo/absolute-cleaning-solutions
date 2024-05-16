@@ -12,7 +12,7 @@ const BlogSingle = (props) => {
     return (
         <Fragment>
             <Navbar />
-            <PageTitle pageTitle='Latest News' pagesub="blog" />
+            <PageTitle pageTitle="Latest from Absolute Cleaning" pagesub="News & Tips" />
             <BlogList blLeft={'d-none'} blRight={'col-lg-10 offset-lg-1'}/>
             <Footer />
             <Scrollbar />

@@ -11,7 +11,7 @@ import Image from 'next/image'
 import blog3 from '/public/images/blog-details/comments-author/img-1.jpg'
 import blog4 from '/public/images/blog-details/comments-author/img-2.jpg'
 import blog5 from '/public/images/blog-details/comments-author/img-3.jpg'
-import blog6 from '/public/images/blog-details/author.jpg'
+import blog6 from '/public/images/blog/josh-tatum-blog-author-for-absolute-cleaning-solutions.png'
 import gl1 from '/public/images/blog/img-3.jpg'
 import gl2 from '/public/images/blog/img-2.jpg'
 
@@ -29,7 +29,7 @@ const BlogSingle = (props) => {
     return (
         <Fragment>
             <Navbar />
-            <PageTitle pageTitle={BlogDetails?.title} pagesub="blog" />
+            <PageTitle pageTitle={BlogDetails?.title} pagesub="Absolute Cleaning Blog" />
             <section className="wpo-blog-single-section section-padding">
                 <div className="container">
                     <div className="row">
@@ -41,7 +41,7 @@ const BlogSingle = (props) => {
                                     </div>
                                     <div className="entry-meta">
                                         <ul>
-                                            <li><i className="fi flaticon-user"></i> By <Link href="/">{BlogDetails?.author}</Link> </li>
+                                            <li><i className="fi flaticon-user"></i> By <Link href="/about">{BlogDetails?.author}</Link> </li>
                                             <li><i className="fi flaticon-comment-white-oval-bubble"></i> Comments {BlogDetails?.comment}</li>
                                             <li><i className="fi flaticon-calendar"></i> {BlogDetails?.create_at}</li>
                                         </ul>
@@ -87,11 +87,11 @@ const BlogSingle = (props) => {
 
                                 <div className="author-box">
                                     <div className="author-avatar">
-                                        <Link href="/" target="_blank"><Image src={blog6} alt="" /></Link>
+                                        <Link href="/" target="_blank"><Image src={blog6} alt="Josh Tatum Blog Author and Owner of Absolute Clenaing Solutions" /></Link>
                                     </div>
                                     <div className="author-content">
-                                        <Link href="/" className="author-name">Author: Jenny Watson</Link>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                                        <Link href="/about" className="author-name">About the Author</Link>
+                                        <p>Josh Tatum, founder of Absolute Cleaning Solutions, has been a key figure in the cleaning industry since 2013. Beyond work, he's a devoted father, barbecue enthusiast, and 3D printing fan. Josh's commitment to excellence means he personally reviews every job, aiming for total customer satisfaction. At Absolute Cleaning Solutions, transparency and high standards are paramount.</p>
                                         <div className="socials">
                                             <ul className="social-link">
                                                 <li><Link href="/"><i className="ti-facebook"></i></Link></li>

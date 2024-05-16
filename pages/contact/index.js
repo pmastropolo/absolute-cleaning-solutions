@@ -9,7 +9,7 @@ const ContactPage =() => {
     return(
         <Fragment>
             <Navbar/>
-            <PageTitle pageTitle={'Contact Us'} pagesub={'Contact'}/> 
+            <PageTitle pageTitle={'Get in Touch'} pagesub={'Contact Absolute Cleaning Solutions'} />
             <Contactpage/>
             <Footer/>
             <Scrollbar/>

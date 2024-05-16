@@ -28,7 +28,7 @@ const BlogSingle = (props) => {
     return (
         <Fragment>
             <Navbar />
-            <PageTitle pageTitle={BlogDetails?.title} pagesub="blog" />
+            <PageTitle pageTitle={BlogDetails?.title} pagesub="Absolute Cleaning Blog" />
             <section className="wpo-blog-single-section section-padding">
                 <div className="container">
                     <div className="row">
@@ -89,7 +89,7 @@ const BlogSingle = (props) => {
                                         <Link href="/" target="_blank"><Image src={blog6} alt="" /></Link>
                                     </div>
                                     <div className="author-content">
-                                        <Link href="/" className="author-name">Absolute Cleaning Solutions</Link>
+                                        <Link href="/about" className="author-name">Absolute Cleaning Solutions</Link>
                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
                                         <div className="socials">
                                             <ul className="social-link">

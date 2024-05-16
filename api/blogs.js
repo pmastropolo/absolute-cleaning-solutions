@@ -4,7 +4,7 @@ import blogImg2 from "/public/images/blog/img-2.jpg";
 import blogImg3 from "/public/images/blog/img-3.jpg";
 import blogImg4 from "/public/images/blog/img-7.jpg";
 
-import blogAuthor from "/public/images/blog/blog-avater/img-1.jpg";
+import blogAuthor from "/public/images/blog/josh-tatum-blog-author-for-absolute-cleaning-solutions.png";
 
 import acsbhamblog1 from "/public/images/blog/revamp-your-commercial-property-blog-banner.jpg";
 import acsbhamblog2 from "/public/images/blog/gutter-cleaning-in-alabaster-alabama.jpg";

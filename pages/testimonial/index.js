@@ -12,7 +12,7 @@ const TestimonialPage = (props) => {
     return (
         <Fragment>
             <Navbar />
-            <PageTitle pageTitle={'Testimonials'} pagesub={'Testimonials'} />
+            <PageTitle pageTitle="Testimonials" pagesub="What Our Clients Say" />
             <Testimonial />
             <PartnerSection tNone={'partners-section-s2'}/>
             <Footer />

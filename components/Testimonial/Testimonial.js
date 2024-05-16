@@ -116,9 +116,8 @@ const Testimonial = () => {
                 <div className="row align-items-center justify-content-center">
                     <div className="col-lg-5">
                         <div className="wpo-section-title">
-                            <h2>What Clients Say?</h2>
-                            <p>It was popularised in the with the release desktop
-                                publishing software like versions .</p>
+                        <h2>What Our Clients Say</h2>
+                        <p>Our clients love our top-notch quality and amazing results. Don’t miss out—choose Absolute Cleaning Solutions and join our many satisfied customers today!</p>
                         </div>
                     </div>
                 </div>
