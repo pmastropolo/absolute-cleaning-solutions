@@ -25,7 +25,7 @@ const ServiceSidebar = (props) => {
                     </ul>
                 </div>
                 <div className="wpo-newsletter-widget widget">
-                    <h2>Newsletter</h2>
+                    <h2>Stay in the Loop</h2>
                     <p>Join 20,000 Sabscribers!</p>
                     <form className="form" onSubmit={SubmitHandler}>
                         <input type="email" placeholder="Email Address" required/>
