@@ -87,8 +87,20 @@ const Footer = (props) => {
                         </div>
                     </div>
                 </div>
+
                 <div className="container">
-                    <p>Terms</p>
+                <Link href="/terms-and-conditions" legacyBehavior>
+                    <a>Terms & Conditions</a>
+                </Link>
+                <span> | </span> 
+                <Link href="/privacy-policy" legacyBehavior>
+                <a>Privacy Policy</a>
+                </Link>
+                <span> | </span> 
+      
+                    <Link href="/accessibility-statement" legacyBehavior>
+                        <a>Accessibility Statement</a>
+                    </Link>
                 </div>
             </div>
         </footer>

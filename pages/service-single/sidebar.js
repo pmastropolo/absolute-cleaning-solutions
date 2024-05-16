@@ -31,13 +31,13 @@ const ServiceSidebar = (props) => {
                         <input type="email" placeholder="Email Address" required/>
                         <button type="submit">Sign Up</button>
                     </form>
-                    <span>By signing up you agree to our <Link href="/">Privecy Policy</Link></span>
+                    <span>By signing up you agree to our <Link href="/privacy-policy">Privacy Policy</Link></span>
                 </div>
                 <div className="wpo-instagram-widget widget">
-                    <h2>Instagram Shot</h2>
+                    <h2>Instagram</h2>
                     <ul>
                         {Services.slice(0,6).map((service, Sitem) => (
-                            <li key={Sitem}><Image src={service.sImg} alt="" /></li>
+                            <li key={Sitem}><Image src={service.sImg} alt="Absolute Cleaning Solutions located in Alabama" /></li>
                         ))}
                     </ul>
                 </div>
