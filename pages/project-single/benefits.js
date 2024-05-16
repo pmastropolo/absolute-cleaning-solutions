@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -11,10 +11,9 @@ const Benefits = (props) => {
         setExpanded(isExpanded ? panel : false);
     };
 
-
     return (
         <div className="wpo-benefits-section">
-            <h2>Benefits</h2>
+            <h2>Why Choose Absolute Cleaning Solutions?</h2>
             <div className="row">
                 <div className="col-lg-12 col-12">
                     <div className="wpo-benefits-item">
@@ -24,11 +23,11 @@ const Benefits = (props) => {
                                 aria-controls="panel1bh-content"
                                 id="panel1bh-header"
                             >
-                                <Typography>Market research on our global panel with support from our experts.</Typography>
+                                <Typography>Expertise and Professionalism</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.
+                                    Our team consists of highly trained professionals who bring years of experience to every job. We ensure top-notch service with meticulous attention to detail.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -38,11 +37,11 @@ const Benefits = (props) => {
                                 aria-controls="panel2bh-content"
                                 id="panel2bh-header"
                             >
-                                <Typography>Planning can help alleviate workplace stress and increase productivity.</Typography>
+                                <Typography>Eco-Friendly Solutions</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.
+                                    We use eco-friendly cleaning solutions that are safe for the environment and your property. Our methods are effective yet gentle, ensuring thorough cleaning without damage.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -52,12 +51,11 @@ const Benefits = (props) => {
                                 aria-controls="panel3bh-content"
                                 id="panel3bh-header"
                             >
-                                <Typography>Those who experiment the most, are able to innovate the best.</Typography>
-                
+                                <Typography>Comprehensive Services</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.
+                                    From pressure washing and gutter cleaning to window cleaning and roof washing, we offer a wide range of services to meet all your cleaning needs. Our comprehensive approach ensures every part of your property looks its best.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -67,11 +65,11 @@ const Benefits = (props) => {
                                 aria-controls="panel4bh-content"
                                 id="panel4bh-header"
                             >
-                                <Typography>Understand Your Problem, You must understand the issue.</Typography>
+                                <Typography>Customer Satisfaction Guarantee</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.
+                                    We prioritize customer satisfaction above all else. Our commitment to quality and excellence ensures that you’ll be delighted with our services. We strive to exceed your expectations every time.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -79,8 +77,7 @@ const Benefits = (props) => {
                 </div>
             </div>
         </div>
-
-    )
-}
+    );
+};
 
 export default Benefits;

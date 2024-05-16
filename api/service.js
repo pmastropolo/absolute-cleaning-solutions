@@ -11,11 +11,11 @@ import simg10 from '/public/images/service/9.jpg'
 import simg11 from '/public/images/service/5.jpg'
 import simg12 from '/public/images/service/10.jpg'
 
-import sIcon1 from '/public/images/icon/carpet.svg'
-import sIcon2 from '/public/images/icon/season.svg'
-import sIcon3 from '/public/images/icon/express-delivery.svg'
-import sIcon4 from '/public/images/icon/cutlery.svg'
-import sIcon5 from '/public/images/icon/shower.svg'
+import sIconPressureWashing from '/public/images/icon/pressure-washing-icon.svg'
+import sIconWindowWashing from '/public/images/icon/window-washing-icon.svg'
+import sIconGutterCleaning from '/public/images/icon/gutter-cleaning-icon.svg'
+import sIconRoofWashing from '/public/images/icon/roof-washing-icon.svg'
+import sIconFence from '/public/images/icon/fence-icon.svg'
 import sIcon6 from '/public/images/icon/1.svg'
 import sIcon7 from '/public/images/icon/2.svg'
 import sIcon8 from '/public/images/icon/3.svg'
@@ -34,7 +34,7 @@ const Services = [
     {
         Id: '1',
         sImg: simg,
-        sIcon: sIcon1,
+        sIcon: sIconPressureWashing,
         sTitle: 'Pressure Washing',
         slug: 'pressure-washing',
         description: 'Get a pristine look with our unbeatable pressure washing. Perfect for driveways, sidewalks, and exteriors. Don’t wait—transform your property now!',
@@ -44,7 +44,7 @@ const Services = [
     {
         Id: '2',
         sImg: simg2,
-        sIcon: sIcon2,
+        sIcon: sIconWindowWashing,
         sTitle: 'Window Cleaning',
         slug: 'window-cleaning',
         description: 'Experience sparkling windows with our expert cleaning. Say goodbye to smudges and streaks. Act fast—let the sunshine in today!',
@@ -54,7 +54,7 @@ const Services = [
     {
         Id: '3',
         sImg: simg3,
-        sIcon: sIcon3,
+        sIcon: sIconGutterCleaning,
         sTitle: 'Gutter Cleaning',
         slug: 'gutter-cleaning',
         description: 'Prevent costly damage with our thorough gutter cleaning. Ensure proper drainage and peace of mind. Don’t delay—secure your home now!',
@@ -64,7 +64,7 @@ const Services = [
     {
         Id: '4',
         sImg: simg4,
-        sIcon: sIcon4,
+        sIcon: sIconRoofWashing,
         sTitle: 'Roof Washing',
         slug: 'roof-washing',
         description: 'Extend your roof’s life with our top-notch washing. Remove moss, algae, and stains. Join our happy customers—protect your roof today!',
@@ -74,7 +74,7 @@ const Services = [
     {
         Id: '5',
         sImg: simg5,
-        sIcon: sIcon5,
+        sIcon: sIconFence,
         sTitle: 'Deck & Fence Restoration',
         slug: 'deck-fence-restoration',
         description: 'Revitalize your outdoor spaces with our expert restoration. Bring back the beauty of your deck and fence. Don’t miss out—renew your space now!',

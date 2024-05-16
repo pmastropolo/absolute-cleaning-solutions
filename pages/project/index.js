@@ -1,20 +1,21 @@
-import React, {Fragment} from 'react';
-import Navbar from '../../components/Navbar/Navbar'
-import PageTitle from '../../components/pagetitle/PageTitle'
-import Footer from '../../components/footer/Footer.js'
-import Scrollbar from '../../components/scrollbar/scrollbar'
-import ProjectSection from '../../components/ProjectSection/ProjectSection'
+import React, { Fragment } from 'react';
+import Navbar from '../../components/Navbar/Navbar';
+import PageTitle from '../../components/pagetitle/PageTitle';
+import Footer from '../../components/footer/Footer';
+import Scrollbar from '../../components/scrollbar/scrollbar';
+import ProjectSection from '../../components/ProjectSection/ProjectSection';
 
-
-const ProjectPage =() => {
-    return(
+const ProjectPage = () => {
+    return (
         <Fragment>
-            <Navbar/>
-            <PageTitle pageTitle={'Projects'} pagesub={'Project'}/> 
-            <ProjectSection/>
-            <Footer/>
-            <Scrollbar/>
+            <Navbar />
+            <PageTitle pageTitle={'Our Completed Projects'} pagesub={'Projects'} />
+            <ProjectSection />
+            <Footer />
+            <Scrollbar />
         </Fragment>
-    )
+    );
 };
+
 export default ProjectPage;
+

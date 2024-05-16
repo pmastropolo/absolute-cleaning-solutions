@@ -1,40 +1,35 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Grid from "@mui/material/Grid";
 import SimpleReactValidator from "simple-react-validator";
-import {toast} from "react-toastify";
+import { toast } from "react-toastify";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
 import Link from "next/link";
 
-
 const LoginPage = (props) => {
-
-    const router = useRouter()
-
+    const router = useRouter();
 
     const [value, setValue] = useState({
-        email: 'user@gmail.com',
-        password: '123456',
+        email: '',
+        password: '',
         remember: false,
     });
 
     const changeHandler = (e) => {
-        setValue({...value, [e.target.name]: e.target.value});
+        setValue({ ...value, [e.target.name]: e.target.value });
         validator.showMessages();
     };
 
     const rememberHandler = () => {
-        setValue({...value, remember: !value.remember});
+        setValue({ ...value, remember: !value.remember });
     };
 
     const [validator] = React.useState(new SimpleReactValidator({
         className: 'errorMessage'
     }));
-
-
 
     const submitForm = (e) => {
         e.preventDefault();
@@ -46,23 +41,19 @@ const LoginPage = (props) => {
             });
             validator.hideMessages();
 
-            const userRegex = /^user+.*/gm;
-            const email = value.email;
-
-            if (email.match(userRegex)) {
-                toast.success('You successfully Login on Cleener !');
-                router.push('/')
-            }
+            toast.success('Successfully logged in to Absolute Cleaning Solutions!');
+            router.push('/');
         } else {
             validator.showMessages();
-            toast.error('Empty field is not allowed!');
+            toast.error('All fields are required!');
         }
     };
+
     return (
         <Grid className="loginWrapper">
             <Grid className="loginForm">
                 <h2>Sign In</h2>
-                <p>Sign in to your account</p>
+                <p>Access your Absolute Cleaning Solutions account</p>
                 <form onSubmit={submitForm}>
                     <Grid container spacing={3}>
                         <Grid item xs={12}>
@@ -103,7 +94,7 @@ const LoginPage = (props) => {
                         <Grid item xs={12}>
                             <Grid className="formAction">
                                 <FormControlLabel
-                                    control={<Checkbox checked={value.remember} onChange={rememberHandler}/>}
+                                    control={<Checkbox checked={value.remember} onChange={rememberHandler} />}
                                     label="Remember Me"
                                 />
                                 <Link href="/forgot-password">Forgot Password?</Link>
@@ -116,14 +107,13 @@ const LoginPage = (props) => {
                                 <Button className="twitter"><i className="fa fa-twitter"></i></Button>
                                 <Button className="linkedin"><i className="fa fa-linkedin"></i></Button>
                             </Grid>
-                            <p className="noteHelp">Don't have an account? <Link href="/register">Create free account</Link>
-                            </p>
+                            <p className="noteHelp">Don't have an account? <Link href="/register">Create a free account</Link></p>
                         </Grid>
                     </Grid>
                 </form>
             </Grid>
         </Grid>
-    )
+    );
 };
 
 export default LoginPage;
