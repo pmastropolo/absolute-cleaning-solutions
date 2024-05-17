@@ -36,23 +36,23 @@ const menus = [
 
     {
         id: 6,
-        title: 'Service',
-        link: '/service',
+        title: 'Services',
+        link: '/service-s2',
         submenu: [
             {
                 id: 61,
-                title: 'Service',
-                link: '/service'
-            },
-            {
-                id: 62,
-                title: 'Service S2',
+                title: 'All Service',
                 link: '/service-s2'
             },
             {
+                id: 62,
+                title: 'Gutter Cleaning',
+                link: '/service-single/gutter-cleaning'
+            },
+            {
                 id: 63,
-                title: 'Service single',
-                link: '/service-single/Carpet'
+                title: 'House Wash',
+                link: '/service-single/house-wash'
             },
         ]
     },
