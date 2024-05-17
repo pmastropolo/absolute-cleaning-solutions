@@ -35,7 +35,7 @@ const ServiceSinglePage = (props) => {
                                         </div>
                                         <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                                             <div className="wpo-project-details-text-3">
-                                                <span>Project Value</span>
+                                                <span>Location</span>
                                                 <h2>{projectDetails?.projectValue}</h2>
                                             </div>
                                         </div>
