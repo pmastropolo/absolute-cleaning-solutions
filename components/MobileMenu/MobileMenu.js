@@ -83,11 +83,6 @@ const menus = [
                 link: '/appointment'
             },
             {
-                id: 333,
-                title: 'Terms & Conditions',
-                link: '/terms'
-            },
-            {
                 id: 334,
                 title: 'Testimonial',
                 link: '/testimonial'
@@ -101,16 +96,6 @@ const menus = [
                 id: 34,
                 title: '404 Error',
                 link: '/404'
-            },
-            {
-                id: 35,
-                title: 'Login',
-                link: '/login'
-            },
-            {
-                id: 36,
-                title: 'Register',
-                link: '/register'
             },
         ]
     },
