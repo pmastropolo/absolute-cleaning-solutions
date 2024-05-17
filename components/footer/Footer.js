@@ -61,7 +61,7 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget link-widget">
                                 <div className="widget-title">
-                                    <h3>Quick Link</h3>
+                                    <h3>Service Areas</h3>
                                 </div>
                                 <ul>
                                     <li><Link href="/about">About Us </Link></li>
@@ -80,29 +80,31 @@ const Footer = (props) => {
                 </div>
             </div>
             <div className="wpo-lower-footer">
-                <div className="container">
-                    <div className="row">
-                        <div className="col col-xs-12">
-                            <p className="copyright"> Copyright &copy; 2021 Absolute Cleaning Solutions | All Rights Reserved</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="container">
-                <Link href="/terms-and-conditions" legacyBehavior>
-                    <a>Terms & Conditions</a>
-                </Link>
-                <span> | </span> 
-                <Link href="/privacy-policy" legacyBehavior>
-                <a>Privacy Policy</a>
-                </Link>
-                <span> | </span> 
-      
-                    <Link href="/accessibility-statement" legacyBehavior>
-                        <a>Accessibility Statement</a>
-                    </Link>
-                </div>
+    <div className="container">
+        <div className="row">
+            <div className="col col-xs-12">
+                <p className="copyright">
+                    Copyright &copy; 2021 Absolute Cleaning Solutions | All Rights Reserved
+                </p>
             </div>
+        </div>
+    </div>
+    <div className="container footer-links">
+        <Link href="/terms-and-conditions" legacyBehavior>
+            <a className="footer-link">Terms & Conditions</a>
+        </Link>
+        <span className="footer-separator"> | </span>
+        <Link href="/privacy-policy" legacyBehavior>
+            <a className="footer-link">Privacy Policy</a>
+        </Link>
+        <span className="footer-separator"> | </span>
+        <Link href="/accessibility-statement" legacyBehavior>
+            <a className="footer-link">Accessibility Statement</a>
+        </Link>
+    </div>
+</div>
+
+            
         </footer>
     )
 }

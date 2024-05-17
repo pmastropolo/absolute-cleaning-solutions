@@ -107,11 +107,6 @@ const menus = [
                 title: 'Testimonial',
                 link: '/testimonial'
             },
-            {
-                id: 34,
-                title: '404 Error',
-                link: '/404'
-            },
         ]
     },
 
@@ -124,16 +119,6 @@ const menus = [
                 id: 51,
                 title: 'Blog',
                 link: '/blog'
-            },
-            {
-                id: 52,
-                title: 'Blog Left sidebar',
-                link: '/blog-left'
-            },
-            {
-                id: 53,
-                title: 'Blog full width',
-                link: '/blog-fullwidth'
             },
             {
                 id: 54,
