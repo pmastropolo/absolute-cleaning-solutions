@@ -131,6 +131,12 @@ const menus = [
                 link: '/blog-single-fullwidth/Save-Money-on-Cleaning-Supplies'
             },
         ]
+        
+    },
+        {
+        id: 2,
+        title: 'Blog',
+        link: '/blog',
     },
     {
         id: 88,
