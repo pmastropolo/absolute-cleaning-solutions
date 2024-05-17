@@ -48,12 +48,17 @@ const Header = (props) => {
                                         </li>
                                         <li><Link onClick={ClickHandler} href="/about">About</Link></li>
                                         <li className="menu-item-has-children">
-                                            <Link href="/service">Services</Link>
+                                            <Link href="/service-s2">Services</Link>
                                             <ul className="sub-menu">
-                                                <li><Link onClick={ClickHandler} href="/service">Service</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/service-s2">Service style 2</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/service-single/Carpet">Service Single</Link></li>
-                                            </ul>
+    <li><Link onClick={ClickHandler} href="/service-s2">All Services</Link></li>
+    <li><Link onClick={ClickHandler} href="/service-single/gutter-cleaning">Gutter Cleaning</Link></li>
+    <li><Link onClick={ClickHandler} href="/service-single/house-washing">House Wash</Link></li>
+    <li><Link onClick={ClickHandler} href="/service-single/pressure-washing">Pressure Washing</Link></li>
+    <li><Link onClick={ClickHandler} href="/service-single/roof-washing">Roof Wash</Link></li>
+    <li><Link onClick={ClickHandler} href="/service-single/window-cleaning">Window Cleaning</Link></li>
+    <li><Link onClick={ClickHandler} href="/service-single/deck-fence-restoration">Deck & Fence Restoration</Link></li>
+</ul>
+
                                         </li>
                                         <li className="menu-item-has-children">
                                             <Link href="/project">Pages</Link>
@@ -63,10 +68,7 @@ const Header = (props) => {
                                                 <li><Link onClick={ClickHandler} href="/team-single/Brubaker-Nilka">Team Single</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/appointment">Appointment</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/testimonial">Testimonial</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/pricing">Pricing</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/404">Error 404</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/login">Login</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/register">Register</Link></li>
                                             </ul>
                                         </li>
                                         <li className="menu-item-has-children">
@@ -115,7 +117,7 @@ const Header = (props) => {
                                     <div className="close-form">
                                     <a onClick={ClickHandler} className="theme-btn" href="tel:(205) 612-6199"> <i className="fa fa-phone"
                                             aria-hidden="true"></i>
-                                            <span>Get Free Estimate</span> (205) 612-6199</a>
+                                            <span>Free Estimate</span> (205) 612-6199</a>
                                     </div>
                                 </div>
                             </div>

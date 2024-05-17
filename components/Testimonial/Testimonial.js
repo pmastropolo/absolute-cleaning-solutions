@@ -16,11 +16,7 @@ const settings = {
 };
 
 const testimonial = [
-    {
-      Des: "Cannot recommend Absolute Cleaning highly enough! Josh and his crew did a soft wash on the exterior of my home, along with exterior and interior windows, and pressure washed the drive and walkway. Excellent job!! Great attention to detail and went above and beyond quoted services. Josh was even able to remove a stain on my brick that a previous company said couldn’t be removed. I won’t use anyone else! Thanks Josh!",
-      Title: 'Laurie Peters',
-      Sub: "Google Review",
-    },
+
     {
       Des: "Josh and crew are fabulous! I had windows cleaned inside and out and the exterior cleaned. He explained the scope of the project and set a date. They arrived on time, took great care of my home, and insured I was satisfied. Everything came out beautifully. Highly recommend for any cleaning job.",
       Title: 'Mike Konnie',
