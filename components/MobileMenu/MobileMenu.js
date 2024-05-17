@@ -41,7 +41,7 @@ const menus = [
         submenu: [
             {
                 id: 61,
-                title: 'All Service',
+                title: 'All Services',
                 link: '/service-s2'
             },
             {
@@ -63,6 +63,11 @@ const menus = [
                 id: 63,
                 title: 'Roof Wash',
                 link: '/service-single/roof-wash'
+            },
+            {
+                id: 63,
+                title: 'Window Cleaning',
+                link: '/service-single/window-cleaning'
             },
             {
                 id: 63,
