@@ -118,28 +118,6 @@ const Projects = [
             'Clean, healthy environment',
             'Spotless, revitalized surfaces'
         ]
-    },
-    {
-        Id: '6',
-        pImg: pimg5,
-        subTitle: 'Brook Highland, AL',
-        title: 'Stain Removal at Brook Highland Shopping Center',
-        slug: 'stain-removal-brook-highland',
-        description1: 'Absolute Cleaning Solutions, located in Brook Highland, Alabama, recently completed a successful stain removal project at the Brook Highland Shopping Center on 280. Our team tackled old sign stains that had accumulated over the years, transforming the look of the shopping center.',
-        description2: 'Using eco-friendly cleaning solutions and advanced techniques, we were able to restore the surfaces to their original condition, significantly enhancing the shopping center\'s aesthetic appeal.',
-        description3: 'Our team focused on eliminating stubborn stains, ensuring the surfaces were left spotless and inviting. The use of eco-friendly products ensured safety for both the environment and visitors.',
-        description4: 'This project highlights our commitment to quality and customer satisfaction. The Brook Highland Shopping Center now stands out with its refreshed and clean appearance, making a positive impression on shoppers.',
-        clientName: 'Brook Highland Shopping Center Management',
-        projectValue: 'Priceless',
-        date: '10 May 2024',
-        spImg1: sSingleimg1,
-        spImg2: sSingleimg2,
-        highlights: [
-            'Effective removal of old, stubborn sign stains',
-            'Use of eco-friendly and safe cleaning solutions',
-            'Improved appearance and curb appeal of the shopping center',
-            'Project completed efficiently with minimal disruption to business operations'
-        ]
     }
 ];
 
