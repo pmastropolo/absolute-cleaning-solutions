@@ -5,23 +5,7 @@ import Collapse from "@mui/material/Collapse";
 import Link from "next/link";
 
 const menus = [
-    {
-        id: 1,
-        title: 'Home',
-        link: '/home',
-        submenu: [
-            {
-                id: 11,
-                title: 'Home style 1',
-                link: '/home'
-            },
-            {
-                id: 13,
-                title: 'Home style 3',
-                link: '/home3'
-            },
-        ]
-    },
+
 
     {
         id: 2,
@@ -107,34 +91,6 @@ const menus = [
 
     {
         id: 5,
-        title: 'Blog',
-        link: '/blog',
-        submenu: [
-            {
-                id: 51,
-                title: 'Blog',
-                link: '/blog'
-            },
-            {
-                id: 54,
-                title: 'Blog single',
-                link: '/blog-single/Save-Money-on-Cleaning-Supplies'
-            },
-            {
-                id: 55,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-left-sidebar/Save-Money-on-Cleaning-Supplies'
-            },
-            {
-                id: 56,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-fullwidth/Save-Money-on-Cleaning-Supplies'
-            },
-        ]
-        
-    },
-        {
-        id: 2,
         title: 'Blog',
         link: '/blog',
     },

@@ -1,7 +1,7 @@
 import projectbanner1 from '/public/images/projects/cultivate-church-outside-view.png';
-import pimg2 from '/public/images/projects/img-2.jpg';
+import pimg2 from '/public/images/projects/window-cleaning-the-church-at-brookhighlands.png';
 import pimg3 from '/public/images/projects/img-3.jpg';
-import pimg4 from '/public/images/projects/img-4.jpg';
+import pimg4 from '/public/images/projects/absolute-cleaning-solutions-past-project-pressure-washing-helena-alabama.png';
 import pimg5 from '/public/images/projects/img-5.jpg';
 
 
@@ -79,8 +79,8 @@ const Projects = [
         Id: '4',
         pImg: pimg4,
         subTitle: 'Helena, AL',
-        title: 'Comprehensive Pressure Washing',
-        slug: 'comprehensive-pressure-washing',
+        title: 'Pressure Washing',
+        slug: 'pressure-washing',
         description1: 'Experience the ultimate clean with our comprehensive pressure washing services. In Helena, AL, we tackled multiple surfaces, from driveways to decks, leaving every area spotless and refreshed. See the difference professional cleaning makes!',
         description2: 'Our thorough cleaning process ensured every surface was free from dirt and grime. The comprehensive service covered all major outdoor areas, significantly enhancing the property’s curb appeal and cleanliness.',
         description3: 'Special care was taken to protect the surrounding landscaping and property features during the cleaning process. The result is a pristine outdoor space that looks well-maintained and inviting.',
@@ -102,7 +102,7 @@ const Projects = [
         pImg: pimg5,
         subTitle: 'Brook Highlands, AL',
         title: 'Expert Stain Removal',
-        slug: 'expert-stain-removal',
+        slug: 'stain-removal',
         description1: 'Say goodbye to stubborn stains with our expert stain removal services. In Brook Highlands, AL, we eliminated tough spots from various surfaces, restoring them to their pristine condition. Trust us for a flawless finish!',
         description2: 'Our team tackled the most challenging stains with precision and care. The results were outstanding, with all surfaces looking clean and fresh. Clients were thrilled with the dramatic improvement in their property’s appearance.',
         description3: 'We used eco-friendly cleaning solutions to ensure safety and sustainability. The property now boasts a clean, healthy environment free from harsh chemicals and residues.',

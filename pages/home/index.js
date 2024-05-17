@@ -1,8 +1,8 @@
 import React, {Fragment} from 'react';
 import Navbar from '../../components/Navbar/Navbar'
-import Hero from '../../components/hero/Hero'
+import Hero3 from '../../components/hero3/hero3'
 import Scrollbar from '../../components/scrollbar/scrollbar'
-import ServiceSection from '../../components/ServiceSection/ServiceSection';
+import ServiceSectionS2 from '../../components/ServiceSectionS2/ServiceSectionS2';
 import WorkSection from '../../components/WorkSection/WorkSection';
 import Appointment from '../../components/Appointment/Appointment';
 import ProjectSection from '../../components/ProjectSection/ProjectSection';
@@ -16,9 +16,9 @@ import Footer from '../../components/footer/Footer.js';
 const HomePage =() => {
     return(
         <Fragment>
-            <Navbar/>
-            <Hero/>
-            <ServiceSection/>
+            <Navbar topbarNone={'topbar-none'}/>
+            <Hero3/>
+            <ServiceSectionS2/>
             <WorkSection/>
             <Appointment/>
             <ProjectSection/>
