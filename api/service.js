@@ -1,9 +1,9 @@
-import simg from '/public/images/service/1.jpg'
-import simg2 from '/public/images/service/2.jpg'
-import simg3 from '/public/images/service/3.jpg'
-import simg4 from '/public/images/service/4.jpg'
-import simg5 from '/public/images/service/5.jpg'
-import simg6 from '/public/images/service/6.jpg'
+import simg from '/public/images/service/pressure-washing-banner.png'
+import simg2 from '/public/images/service/window-cleaning-banner.png'
+import simg3 from '/public/images/service/gutter-cleaning-banner.png'
+import simg4 from '/public/images/service/roof-washing-banner.png'
+import simg5 from '/public/images/service/deck-and-fence-banner.png'
+import simg6 from '/public/images/service/house-washing-banner.png'
 import simg7 from '/public/images/service/1.jpg'
 import simg8 from '/public/images/service/7.jpg'
 import simg9 from '/public/images/service/8.jpg'
@@ -78,6 +78,16 @@ const Services = [
         sTitle: 'Deck & Fence Restoration',
         slug: 'deck-fence-restoration',
         description: 'Revitalize your outdoor spaces with our expert restoration. Bring back the beauty of your deck and fence. Don’t miss out—renew your space now!',
+        ssImg1: sSingleimg1,
+        ssImg2: sSingleimg2,
+    },
+    {
+        Id: '6',
+        sImg: simg6,
+        sIcon: sIconFence,
+        sTitle: 'House Wash',
+        slug: 'house-wash',
+        description: 'House Wash',
         ssImg1: sSingleimg1,
         ssImg2: sSingleimg2,
     },

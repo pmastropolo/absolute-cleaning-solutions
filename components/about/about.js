@@ -1,6 +1,6 @@
 import React from 'react'
 import abimg from '/public/images/about-josh-tatum-owner-of-absolute-cleaning-solutions.jpg'
-import sign from '/public/images/signeture.png'
+import sign from '/public/images/small-logo-just-arrows.png'
 import Image from 'next/image'
 
 
