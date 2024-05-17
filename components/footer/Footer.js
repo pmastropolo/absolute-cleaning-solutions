@@ -21,7 +21,7 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
-                                    <Image src={Logo} alt="blog"/>
+                                    <Image src={Logo} alt="Absolute Cleaning Solutions Footer Small Logo"/>
                                 </div>
                                 <p><b>Join Our Family of Satisfied Clients!</b></p>
                                 <p>At Absolute Cleaning Solutions, a family-owned gem in Alabama, we don't just clean — we care. Our personalized pressure washing service is the local secret to a pristine home.</p>
