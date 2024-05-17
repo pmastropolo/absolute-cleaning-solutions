@@ -54,6 +54,21 @@ const menus = [
                 title: 'House Wash',
                 link: '/service-single/house-wash'
             },
+            {
+                id: 62,
+                title: 'Pressure Washing',
+                link: '/service-single/pressure-washing'
+            },
+            {
+                id: 63,
+                title: 'Roof Wash',
+                link: '/service-single/roof-wash'
+            },
+            {
+                id: 63,
+                title: 'Deck & Fence',
+                link: '/service-single/deck-fence-restoration'
+            },
         ]
     },
 
