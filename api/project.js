@@ -1,12 +1,14 @@
-import projectbanner1 from '/public/images/projects/cultivate-church-outside-view.png';
+import projectbanner1 from '/public/images/projects/pressure-washing-cultivate-church-in-alabaster-alabama.png';
 import pimg2 from '/public/images/projects/window-cleaning-the-church-at-brookhighlands.png';
-import pimg3 from '/public/images/projects/img-3.jpg';
+import pimg3 from '/public/images/projects/pressure-washing-driveway-in-inverness-alabama.png';
 import pimg4 from '/public/images/projects/absolute-cleaning-solutions-past-project-pressure-washing-helena-alabama.png';
 import pimg5 from '/public/images/projects/img-5.jpg';
 
 
 import sSingleimg1 from '/public/images/project-single/2.jpg';
 import sSingleimg2 from '/public/images/project-single/3.jpg';
+import sSingleimg3 from '/public/images/project-single/past-project-one.png';
+import sSingleimg4 from '/public/images/project-single/past-project-one.png';
 
 const Projects = [
     {
@@ -42,7 +44,7 @@ const Projects = [
         description3: 'Our team worked efficiently to minimize disruption to the church’s daily activities. The result was a beautifully clean exterior that reflects the church’s commitment to maintaining a welcoming environment.',
         description4: 'The enhanced natural light has created a more uplifting and inspiring atmosphere inside the church. This project highlights our dedication to delivering top-quality results that make a real difference.',
         clientName: 'The Church at Brook Hills',
-        projectValue: '$700',
+        projectValue: 'Birmingham, AL',
         date: '2 Feb 2024',
         spImg1: sSingleimg1,
         spImg2: sSingleimg2,
@@ -66,8 +68,8 @@ const Projects = [
         clientName: 'John Smith',
         projectValue: '$1200',
         date: '10 Feb 2024',
-        spImg1: sSingleimg1,
-        spImg2: sSingleimg2,
+        spImg1: sSingleimg3,
+        spImg2: sSingleimg4,
         highlights: [
             'Advanced cleaning techniques',
             'Slip-resistant and safe surfaces',
@@ -86,7 +88,7 @@ const Projects = [
         description3: 'Special care was taken to protect the surrounding landscaping and property features during the cleaning process. The result is a pristine outdoor space that looks well-maintained and inviting.',
         description4: 'This project demonstrates our commitment to excellence and customer satisfaction. Helena homeowners now have an impeccably clean property that stands out in the neighborhood.',
         clientName: 'Emily Johnson',
-        projectValue: '$950',
+        projectValue: 'Helena, AL',
         date: '20 Mar 2024',
         spImg1: sSingleimg1,
         spImg2: sSingleimg2,
@@ -108,7 +110,7 @@ const Projects = [
         description3: 'We used eco-friendly cleaning solutions to ensure safety and sustainability. The property now boasts a clean, healthy environment free from harsh chemicals and residues.',
         description4: 'This project showcases our expertise in stain removal and our commitment to delivering exceptional results. Brook Highlands homeowners are now enjoying spotless, revitalized surfaces throughout their property.',
         clientName: 'Michael Brown',
-        projectValue: '$650',
+        projectValue: 'Highway 280',
         date: '30 Apr 2024',
         spImg1: sSingleimg1,
         spImg2: sSingleimg2,
